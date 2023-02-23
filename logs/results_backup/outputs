@@ -1,0 +1,63 @@
+/home/wsv/anaconda3/envs/anfis_fuzzy_logic/bin/python /home/wsv/GitHub/anfis_fuzzy_logic/spy-sanfis-model.py
+2023-01-27 08:51:07.205414: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[*********************100%***********************]  1 of 1 completed
+Original Length of Data:  1257
+Iteration:      4,   Func. Count:     21,   Neg. LLF: 1405.6773665909645
+Iteration:      8,   Func. Count:     40,   Neg. LLF: 1395.1327261673644
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 1395.1327242975153
+            Iterations: 10
+            Function evaluations: 47
+            Gradient evaluations: 10
++------------+--------+--------+--------+---------+-------------+-----------+------------+--------------+----------+---------------+------------+---------------+--------------------+--------------------+
+|            |   Open |   High |    Low |   Close |   Adj Close |    Volume |    Returns |   Log Return |   RSI_14 |   log(Volume) | Time       |   Momentum_20 |   Long-term MA_120 |   Short-term MA_20 |
+|------------+--------+--------+--------+---------+-------------+-----------+------------+--------------+----------+---------------+------------+---------------+--------------------+--------------------|
+| 2015-06-25 | 211.1  | 211.25 | 209.77 |  209.86 |     182.986 |  97107400 | -0.304048  |   -0.304511  |  49.022  |       18.3913 | 2015-06-25 |     -1.3703   |            180.526 |            183.018 |
+| 2015-06-26 | 210.29 | 210.58 | 209.16 |  209.82 |     182.951 | 104174800 | -0.0190541 |   -0.019056  |  48.8718 |       18.4616 | 2015-06-26 |     -0.259796 |            180.599 |            183.005 |
+| 2015-06-29 | 208.05 | 209.83 | 205.33 |  205.42 |     179.114 | 202621300 | -2.09702   |   -2.11932   |  35.8513 |       19.1268 | 2015-06-29 |     -4.46947  |            180.653 |            182.782 |
+| 2015-06-30 | 207.26 | 207.32 | 205.28 |  205.85 |     179.489 | 182925100 |  0.209321  |    0.209102  |  37.6009 |       19.0246 | 2015-06-30 |     -3.91228  |            180.692 |            182.586 |
+| 2015-07-01 | 207.73 | 208.03 | 206.56 |  207.5  |     180.928 | 135979900 |  0.801548  |    0.798352  |  43.9215 |       18.728  | 2015-07-01 |     -2.9595   |            180.718 |            182.438 |
+| 2015-07-02 | 208.07 | 208.27 | 206.81 |  207.31 |     180.762 | 104373700 | -0.0915387 |   -0.0915806 |  43.3768 |       18.4635 | 2015-07-02 |     -1.57198  |            180.754 |            182.36  |
+| 2015-07-06 | 205.77 | 207.65 | 205.53 |  206.72 |     180.248 | 117975400 | -0.284601  |   -0.285006  |  41.6489 |       18.586  | 2015-07-06 |     -1.774    |            180.797 |            182.271 |
+| 2015-07-07 | 206.96 | 208.17 | 204.11 |  208.02 |     181.381 | 173820200 |  0.628848  |    0.626879  |  46.6878 |       18.9735 | 2015-07-07 |      0.478867 |            180.854 |            182.295 |
+| 2015-07-08 | 206.42 | 206.76 | 204.25 |  204.53 |     178.338 | 164020100 | -1.67771   |   -1.69194   |  37.3602 |       18.9155 | 2015-07-08 |     -2.53815  |            180.894 |            182.168 |
+| 2015-07-09 | 207.04 | 207.35 | 204.77 |  204.9  |     178.661 | 144113100 |  0.180885  |    0.180721  |  38.757  |       18.7861 | 2015-07-09 |     -4.38486  |            180.95  |            181.949 |
++------------+--------+--------+--------+---------+-------------+-----------+------------+--------------+----------+---------------+------------+---------------+--------------------+--------------------+
++------------+-----------+----------+----------+--------------------+--------------------+---------------+------------+---------------+----------+
+|            |   σ_(1,1) |     σ_20 |    σ_120 |   Short-term MA_20 |   Long-term MA_120 |   log(Volume) | Time       |   Momentum_20 |   RSI_14 |
+|------------+-----------+----------+----------+--------------------+--------------------+---------------+------------+---------------+----------|
+| 2015-06-25 |  0.660476 | 0.983633 | 0.983633 |            183.018 |            180.526 |       18.3913 | 2015-06-25 |     -1.3703   |  49.022  |
+| 2015-06-26 |  0.622914 | 0.961141 | 0.979846 |            183.005 |            180.599 |       18.4616 | 2015-06-26 |     -0.259796 |  48.8718 |
+| 2015-06-29 |  0.578025 | 0.936815 | 0.975674 |            182.782 |            180.653 |       19.1268 | 2015-06-29 |     -4.46947  |  35.8513 |
+| 2015-06-30 |  1.07735  | 1.02875  | 0.990972 |            182.586 |            180.692 |       19.0246 | 2015-06-30 |     -3.91228  |  37.6009 |
+| 2015-07-01 |  0.959577 | 1.00379  | 0.98694  |            182.438 |            180.718 |       18.728  | 2015-07-01 |     -2.9595   |  43.9215 |
+| 2015-07-02 |  0.925106 | 0.994523 | 0.985489 |            182.36  |            180.754 |       18.4635 | 2015-07-02 |     -1.57198  |  43.3768 |
+| 2015-07-06 |  0.828121 | 0.969557 | 0.981328 |            182.271 |            180.797 |       18.586  | 2015-07-06 |     -1.774    |  41.6489 |
+| 2015-07-07 |  0.756692 | 0.947154 | 0.977502 |            182.295 |            180.854 |       18.9735 | 2015-07-07 |      0.478867 |  46.6878 |
+| 2015-07-08 |  0.740293 | 0.933753 | 0.975053 |            182.168 |            180.894 |       18.9155 | 2015-07-08 |     -2.53815  |  37.3602 |
+| 2015-07-09 |  1.00319  | 0.985613 | 0.983351 |            181.949 |            180.95  |       18.7861 | 2015-07-09 |     -4.38486  |  38.757  |
++------------+-----------+----------+----------+--------------------+--------------------+---------------+------------+---------------+----------+
+/home/wsv/anaconda3/envs/anfis_fuzzy_logic/lib/python3.10/site-packages/statsmodels/graphics/tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+/home/wsv/anaconda3/envs/anfis_fuzzy_logic/lib/python3.10/site-packages/statsmodels/graphics/tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+Train s-anfis on 886 samples, validate on 252 samples
+Training Loop: 100%|##########| 1000.0/1000 [00:44<00:00, 22.40epochs/s, train_loss=0.857, valid_loss=1.41]
+2023-01-27 08:51:57.387522: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+RMSE:  0.78848267
+Training Loop:   0%|          | 0/1000 [00:00<?, ?epochs/s]Train s-anfis on 886 samples, validate on 252 samples
+Training Loop: 100%|##########| 1000.0/1000 [00:45<00:00, 22.11epochs/s, train_loss=0.85, valid_loss=0.67]
+RMSE:  0.79683
+Train s-anfis on 886 samples, validate on 252 samples
+Training Loop: 100%|##########| 1000.0/1000 [00:42<00:00, 23.30epochs/s, train_loss=0.896, valid_loss=0.784]
+RMSE:  0.81268775
+Training Loop:   0%|          | 0/1000 [00:00<?, ?epochs/s]Train s-anfis on 886 samples, validate on 252 samples
+Training Loop: 100%|##########| 1000.0/1000 [00:41<00:00, 23.85epochs/s, train_loss=0.836, valid_loss=0.766]
+RMSE:  1.2752211
+Training Loop:   0%|          | 0/1000 [00:00<?, ?epochs/s]Train s-anfis on 886 samples, validate on 252 samples
+Training Loop: 100%|##########| 1000.0/1000 [00:42<00:00, 23.67epochs/s, train_loss=0.957, valid_loss=0.846]
+RMSE:  0.8575762
+
+Process finished with exit code 0
